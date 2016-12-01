@@ -1,4 +1,4 @@
-# KKona Secret Santa :knife:
+# KKona Secret Santa :knife: :ghost:
 
 ## Written in:
 * Typescript
