@@ -1,0 +1,24 @@
+page-home {
+  color: #aa0000;;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  background-color: #1d1d1d;
+  color: #aa0000; 
+
+  &__hero {
+    font-family: 'Pacifico';
+    display: flex;
+    justify-content: center;
+  }
+
+  &__subtext {
+    text-align: center;
+    font-family: 'Mountains of Christmas';
+    font-size: 4rem;
+  }
+}
