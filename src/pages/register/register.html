@@ -7,12 +7,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>register</ion-title>
+    <ion-title>Register</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content class="main"  padding>
+  <div class="main">
+    <div class="main__register">
+      <ion-item class="main__register__item">
+        <ion-label floating>Username</ion-label>
+        <ion-input class="main__register__item__input" type="text"></ion-input>
+      </ion-item>
+      <ion-item class="main__register__item">
+        <ion-label floating>Password</ion-label>
+        <ion-input class="main__register__item__input" type="password"></ion-input>
+      </ion-item>
+      <ion-item class="main__register__item">
+        <ion-label floating>Tell your Santa about yourself</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <button ion-button class="santa-btn">Register</button>
+    </div>
+  </div>
 </ion-content>

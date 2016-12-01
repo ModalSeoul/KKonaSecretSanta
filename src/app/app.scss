@@ -22,10 +22,30 @@ body {
 /* O V E R R I D E S
 ----------------------------*/
 
+.main {
+  background-color: #1d1d1d;
+  color: #aa0000; 
+
+  &__hero {
+    font-family: 'Pacifico';
+    display: flex;
+    justify-content: center;
+  }
+
+  &__subtext {
+    text-align: center;
+    font-family: 'Mountains of Christmas';
+    font-size: 4rem;
+  }
+}
+
 .santa-btn {
   font-size: 2rem;
   background-color: #aa0000;
   transition: .5s;
+  font-family: 'Mountains of Christmas';
+  width: 100%;
+  padding: 0;
 }
 
 .toolbar-title-md {
@@ -43,3 +63,4 @@ body {
   border: 1px solid #aa0000;
   color: #aa0000;
 }
+

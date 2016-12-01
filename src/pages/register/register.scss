@@ -1,3 +1,26 @@
 page-register {
+}
 
+.santa-btn {
+  height: 5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+
+  &__register {
+    width: 32rem;
+    margin-top: .5rem;
+
+    &__item {
+      margin-top: 1rem;
+      &__input {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
 }
